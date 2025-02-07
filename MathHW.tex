@@ -199,5 +199,65 @@ $f(x)=\frac{x^2}{2} + x + 1; \; [-2,1]$; 5 Trapezoids
 
 \newpage
 \section{Volume of Solids of Revolutions (Washer Method)}
-
+Find the volume of the solid that results when the region enclosed by the curves is revolved about the given axis.
+\begin{multicols}{2}
+\begin{center}
+    $f(x)=x^2-3,\quad g(x)=\sqrt{x}-3;\quad$axis:$\;y=2$
+    \begin{align*}
+        f(x) &= g(x) \\
+        x^2-3&=\sqrt{x}-3 \\
+        x^2&=\sqrt{x}\\
+        x^4&=x\\
+        x\left(x^3-1\right)&=0\\
+        x=0\ &\qquad\! x^3=1 \\
+        a=0\ &\qquad\! b=1 \\
+        V=\pi\int^b_a\Bigl|(f(x)-y)^2 &-(g(x)-y)^2\Bigr|\;dx \\
+        =\pi\int^1_0\Bigl|(x^2-5)^2 &-(\sqrt{x}-5)^2\Bigr|\;dx \\
+        =\pi\int^1_0\Bigl|x^4-10x^2+25 &-(x-10\sqrt{x}+25)\Bigr|\;dx \\
+        =\pi\Biggl|\frac{x^5}{5}-\frac{10x^3}{3} &- \frac{x^2}{2}+\frac{20x^{\frac{3}{2}}}{3}\Biggr|^1_0 \\
+        =\pi\biggl|\frac{1}{5}-\frac{10}{3}&-\frac{1}{2}+\frac{20}{3}\biggr| \\
+        V&=\frac{91\pi}{30} \\
+    \end{align*} 
+    \vspace{3pt}\\
+    $f(x)=x^2+4,\quad g(x)=2;\;a=0,\;b=1;$\\
+    \raggedleft axis:$\;y=-1\quad$ 
+    \begin{align*}
+        V=\pi\int^b_a\Bigl|(f(x)-y)^2 &-(g(x)-y)^2\Bigr|\;dx \\
+        =\pi\int^1_0\Bigl|(x^2&+5)^2 -3^2\Bigr|\;dx \\
+        =\pi\int^1_0\Bigl|x^4+&10x^2+16\Bigr|\;dx \\
+        =\pi\Biggl|\frac{x^5}{5}+&\frac{10x^3}{3} + 16x\Biggr|^1_0 \\
+        =\pi\biggl|\frac{1}{5}+&\frac{10}{3}+16\biggr| \\
+        V&=\frac{293\pi}{15} \\ 
+    \end{align*} 
+    
+\columnbreak
+    $f(x)=x^2-3,\quad g(x)=\sqrt{x}-3;\quad$ axis:$\;y=1$
+    \begin{align*}
+        f(x) &= g(x) \\
+        x^2-3&=\sqrt{x}-3 \\
+        x^2&=\sqrt{x}\\
+        x^4&=x\\
+        x\left(x^3-1\right)&=0\\
+        x=0\ &\qquad\! x^3=1 \\
+        a=0\ &\qquad\! b=1 \\
+        V=\pi\int^b_a\Bigl|(f(x)-y)^2 &-(g(x)-y)^2\Bigr|\;dx \\
+        =\pi\int^1_0\Bigl|(x^2-4)^2 &-(\sqrt{x}-4)^2\Bigr|\;dx \\
+        =\pi\int^1_0\Bigl|x^4-8x^2+16 &-(x-8\sqrt{x}+16)\Bigr|\;dx \\
+        =\pi\Biggl|\frac{x^5}{5}-\frac{8x^3}{3} &- \frac{x^2}{2}+\frac{16x^{\frac{3}{2}}}{3}\Biggr|^1_0 \\
+        =\pi\biggl|\frac{1}{5}-\frac{8}{3}&-\frac{1}{2}+\frac{16}{3}\biggr| \\
+        V&=\frac{71\pi}{30} \\
+    \end{align*} 
+    \vspace{3pt}\\
+    $f(x)=x^2+3,\quad g(x)=3;\;a=0,\;b=1;$\\
+    \raggedleft axis:$\;y=-1\quad$ 
+    \begin{align*}
+        V=\pi\int^b_a\Bigl|(f(x)-y)^2 &-(g(x)-y)^2\Bigr|\;dx \\
+        =\pi\int^1_0\Bigl|(x^2&+5)^2 -3^2\Bigr|\;dx \\
+        =\pi\int^1_0\Bigl|x^4+&10x^2+16\Bigr|\;dx \\
+        =\pi\Biggl|\frac{x^5}{5}+&\frac{10x^3}{3} + 16x\Biggr|^1_0 \\
+        =\pi\biggl|\frac{1}{5}+&\frac{10}{3}+16\biggr| \\
+        V&=\frac{293\pi}{15} \\ 
+    \end{align*} 
+\end{center}
+\end{multicols}
 \end{document}
