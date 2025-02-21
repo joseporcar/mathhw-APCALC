@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.1)  6 FEB 2025 21:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.1)  21 FEB 2025 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -397,17 +397,24 @@ Package hyperref Info: Link coloring OFF on input line 12.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-[3] [4] [5] [6] (./MathHW.aux)
+[3] [4] [5] [6] [7] (./MathHW.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `MathHW.out' has not changed.
-(rerunfilecheck)             Checksum: F120067C033A13822C0263B3F1714118;786.
+
+
+Package rerunfilecheck Warning: File `MathHW.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `MathHW.out':
+(rerunfilecheck)             Before: F120067C033A13822C0263B3F1714118;786
+(rerunfilecheck)             After:  1BE1A2EFB83A9D9EC14212B7290B0D21;950.
  ) 
 Here is how much of TeX's memory you used:
- 8859 strings out of 476076
- 135394 string characters out of 5793776
+ 8861 strings out of 476076
+ 135409 string characters out of 5793776
  1987187 words of memory out of 5000000
  30882 multiletter control sequences out of 15000+600000
  564968 words of font info for 60 fonts, out of 8000000 for 9000
@@ -421,10 +428,10 @@ mr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb>
-Output written on MathHW.pdf (6 pages, 112096 bytes).
+Output written on MathHW.pdf (7 pages, 113104 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
+ 108 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
  25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
