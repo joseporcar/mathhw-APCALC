@@ -258,9 +258,11 @@ Find the volume of the solid that results when the region enclosed by the curves
     \end{align*} 
 \end{center}
 \end{multicols}
+
 \newpage
 \section{Separation of Variables}
 \subsection*{General Solution} 
+\vspace*{-16pt}
 \begin{flalign*}
     &1. & &2. & &3. & &4. \\
     \frac{dy}{dx} &= \frac{x^3}{y^2} & \frac{dy}{dx} &= \frac{1}{\sec^2\!y} & \frac{dy}{dx} &= 3e^{x-y} & \frac{dy}{dx} &= \frac{2x}{e^{2y}} \\
@@ -271,4 +273,22 @@ Find the volume of the solid that results when the region enclosed by the curves
     y &= \sqrt[3]{\frac{3x^4}{4} + 3C} & & &  & & 2y &= \ln2 + \ln\left(x^2 + C\right) \\
     &  & & &  & & y &= \ln\left(\sqrt{x^2 + C}\right) + \frac{\ln2}{2} \\
 \end{flalign*}
+\subsection*{Particular Solution}
+\begin{multicols}{2}
+    \vspace*{-32pt}
+    \begin{align*}
+        \frac{dy}{dx} &= \frac{2x}{y^2} & y(2)  &= \sqrt[3]{13} \\
+        \\ \frac{dy}{dx} &= \frac{1}{\sec^2 y} & y(3)  &= 0 \\
+        \\ \frac{dy}{dx} &= -\frac{1}{\sin y} & y(3)  &= \frac{\pi}{2} \\
+        \\ \frac{dy}{dx} &= \frac{3x^2}{e^{2y}} & y(1)  &= 0 \\
+    \end{align*}
+    \columnbreak 
+    \begin{align*}
+        \frac{dy}{dx} &= 2e^{x - y} & &y(-3) = \ln \frac{3e^3 + 2}{e^3} \\
+        \\ \frac{dy}{dx} &= \frac{e^x}{y^2} & &y(-1) = \frac{\sqrt[3]{e^3 + 3e^2}}{e} \\
+        \\ \frac{dy}{dx} &= \frac{2x}{e^{2y}} & &y(2) = \frac{\ln 5}{2} \\
+        \\ \frac{dy}{dx} &= \frac{1 + x^2}{y^2} & &y(-1) = -\sqrt[3]{4} \\
+    \end{align*}
+\end{multicols}
+\end{document}
 \end{document}
