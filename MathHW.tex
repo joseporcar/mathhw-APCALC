@@ -1,5 +1,3 @@
-% TODO
-% an index that links to each hw
 
 \documentclass[12pt]{article}
 \usepackage{amsmath, multicol}
@@ -262,7 +260,15 @@ Find the volume of the solid that results when the region enclosed by the curves
 \end{multicols}
 \newpage
 \section{Separation of Variables}
-Find the general solution of each differential equation.
-
-
+\subsection*{General Solution} 
+\begin{flalign*}
+    &1. & &2. & &3. & &4. \\
+    \frac{dy}{dx} &= \frac{x^3}{y^2} & \frac{dy}{dx} &= \frac{1}{\sec^2\!y} & \frac{dy}{dx} &= 3e^{x-y} & \frac{dy}{dx} &= \frac{2x}{e^{2y}} \\
+    y^2\,dy &= x^3\,dx & \sec^2\!y\,dy &= dx & e^y\,dy &= 3e^x\,dx & e^{2y}\,dy &= 2x\,dx \\
+    \int y^2\,dy &= \int x^3\,dx & \int \sec^2\!y\,dy &= \int dx & \int e^y\,dy &= \int 3e^x\,dx & \int e^{2y}\,dy &= \int 2x\,dx \\
+    \frac{y^3}{3} &= \frac{x^4}{4} + C & \tan y &= x + C & e^y &= 3e^x + C & \frac{e^{2y}}{2} &= x^2 + C \\
+    y^3 &= \frac{3x^4}{4} + 3C & y &= \tan^{-1}(x + C) & y &= \ln\left(3e^x + C\right) & e^{2y} &= 2\left(x^2 + C\right) \\
+    y &= \sqrt[3]{\frac{3x^4}{4} + 3C} & & &  & & 2y &= \ln2 + \ln\left(x^2 + C\right) \\
+    &  & & &  & & y &= \ln\left(\sqrt{x^2 + C}\right) + \frac{\ln2}{2} \\
+\end{flalign*}
 \end{document}

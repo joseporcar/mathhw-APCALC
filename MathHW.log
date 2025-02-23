@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.1)  21 FEB 2025 13:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.1)  23 FEB 2025 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -332,25 +332,25 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 ) (./MathHW.aux)
 \openout1 = `MathHW.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-Package hyperref Info: Link coloring OFF on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+Package hyperref Info: Link coloring OFF on input line 10.
 (./MathHW.out) (./MathHW.out)
 \@outlinefile=\write3
 \openout3 = `MathHW.out'.
@@ -397,29 +397,27 @@ Package hyperref Info: Link coloring OFF on input line 12.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-[3] [4] [5] [6] [7] (./MathHW.aux)
+[3] [4] [5] [6]
+Overfull \hbox (24.34355pt too wide) detected at line 273
+[]
+ []
+
+[7] (./MathHW.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-Package rerunfilecheck Warning: File `MathHW.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `MathHW.out':
-(rerunfilecheck)             Before: F120067C033A13822C0263B3F1714118;786
-(rerunfilecheck)             After:  1BE1A2EFB83A9D9EC14212B7290B0D21;950.
+Package rerunfilecheck Info: File `MathHW.out' has not changed.
+(rerunfilecheck)             Checksum: 1BE1A2EFB83A9D9EC14212B7290B0D21;950.
  ) 
 Here is how much of TeX's memory you used:
- 8861 strings out of 476076
- 135409 string characters out of 5793776
+ 8865 strings out of 476076
+ 135490 string characters out of 5793776
  1987187 words of memory out of 5000000
- 30882 multiletter control sequences out of 15000+600000
+ 30885 multiletter control sequences out of 15000+600000
  564968 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,12n,79p,339b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,79p,339b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -428,10 +426,10 @@ mr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb>
-Output written on MathHW.pdf (7 pages, 113104 bytes).
+Output written on MathHW.pdf (7 pages, 115166 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
