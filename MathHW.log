@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.1)  24 FEB 2025 08:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.1)  24 FEB 2025 09:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -402,6 +402,11 @@ Overfull \hbox (24.34355pt too wide) detected at line 276
 []
  []
 
+
+Overfull \hbox (15.80406pt too wide) detected at line 313
+[]
+ []
+
 [7] (./MathHW.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -426,7 +431,7 @@ mr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb>
-Output written on MathHW.pdf (7 pages, 117076 bytes).
+Output written on MathHW.pdf (7 pages, 117214 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
