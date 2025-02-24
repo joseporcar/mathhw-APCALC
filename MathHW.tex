@@ -321,10 +321,10 @@ Find the volume of the solid that results when the region enclosed by the curves
         y^2\,dy &= e^x\,dx & \sqrt[3]{3e{-1} + 3C} &= \frac{\sqrt[3]{e^3 + 3e^2}}{e} \\
         \int y^2\,dy &= \int e^x\,dx & 3e{-1} + 3C &= \frac{e^3 + 3e^2}{e^3}\\
         \frac{y^3}{3} &= e^x + C & 3C &= \frac{e^3 + 3e^2 - 3e^2}{e^3} \\
-        y^3 &= 3e^x + 3C & C &= 1\\
+        y^3 &= 3e^x + 3C & C &= \frac{1}{3}\\
         y &= \sqrt[3]{3e^x + 3C} 
     \end{align*}
-    $$y = \sqrt[3]{3(e^x + 1)}$$ 
+    $$y = \sqrt[3]{3(e^x + \frac{1}{3})}$$ 
     \end{center}
     \vspace{64pt}
 \end{multicols}
@@ -333,23 +333,23 @@ Find the volume of the solid that results when the region enclosed by the curves
     \begin{center}
     $$\frac{dy}{dx} = -\frac{1}{\sin y}\,, \quad y(3) = \frac{\pi}{2}$$
     \begin{align*}
-        y^2\,dy &= e^x\,dx & \sqrt[3]{3e{-1} + 3C} &= \frac{\sqrt[3]{e^3 + 3e^2}}{e} \\
-        \int y^2\,dy &= \int e^x\,dx & 3e{-1} + 3C &= \frac{e^3 + 3e^2}{e^3}\\
-        \frac{y^3}{3} &= e^x + C & 3C &= \frac{e^3 + 3e^2 - 3e^2}{e^3} \\
-        y^3 &= 3e^x + 3C & C &= 1\\
-        y &= \sqrt[3]{3e^x + 3C} 
+        \sin \! y\,dy &= -1\,dx & \cos^{-1}(3 - C) &= \frac{\pi}{2} \\
+        \int \sin \! y\,dy &= \int -1\,dx & 3 - C &= \cos \frac{\pi}{2}\\
+        -\cos y &= -x + C & 3 - C &= 0 \\
+        y &= \cos^{-1}(x - C) & C &= 3\\ 
     \end{align*}
-    $$y = \sqrt[3]{3(e^x + 1)}$$ 
+    $$y = \cos^{-1}(x - 3)$$ 
 
     $$\frac{dy}{dx} = \frac{3x^2}{e^{2y}}\,, \quad y(1) = 0$$
     \begin{align*}
-        y^2\,dy &= e^x\,dx & \sqrt[3]{3e{-1} + 3C} &= \frac{\sqrt[3]{e^3 + 3e^2}}{e} \\
-        \int y^2\,dy &= \int e^x\,dx & 3e{-1} + 3C &= \frac{e^3 + 3e^2}{e^3}\\
-        \frac{y^3}{3} &= e^x + C & 3C &= \frac{e^3 + 3e^2 - 3e^2}{e^3} \\
-        y^3 &= 3e^x + 3C & C &= 1\\
-        y &= \sqrt[3]{3e^x + 3C} 
+        e^{2y}\,dy &= 3x^2\,dx & \frac{\ln \left( 2\left(1^2 + C\right) \right)}{2} &= 0 \\
+        \int e^{2y}\,dy &= \int 3x^2\,dx & 2\left(1^2+C\right) &= 1\\
+        \frac{e^{2y}}{2} &= x^3 + C & 1+C &= \frac{1}{2} \\
+        e^{2y} &= 2x^3 +2C & C &= -\frac{1}{2}\\
+        2y &= \ln \left( 2\left(x^2 + C\right) \right) \\
+        y &= \frac{\ln \left( 2\left(x^2 + C\right) \right)}{2}
     \end{align*}
-    $$y = \sqrt[3]{3(e^x + 1)}$$ 
+    $$y = \ln \left( \sqrt{x^2 - \frac{1}{2}} \right) + \ln \sqrt{2}$$ 
 
     \columnbreak 
 
