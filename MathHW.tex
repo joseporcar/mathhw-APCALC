@@ -275,104 +275,112 @@ Find the volume of the solid that results when the region enclosed by the curves
     &  & & &  & & y &= \ln\left(\sqrt{x^2 + C}\right) + \frac{\ln2}{2} \\
 \end{flalign*}
 \subsection*{Particular Solution}
-\vspace*{-24pt}
 \begin{multicols}{2}
-    \begin{center}
-    $$\frac{dy}{dx} = \frac{2x}{y^2}\,, \quad y(2) = \sqrt[3]{13}$$
-    \vspace*{-24pt}
     \begin{align*}
-        y^2\,dy &= 2x\,dx & \sqrt[3]{3(2)^2 + 3C} &= \sqrt[3]{13} \\
-        \int y^2\,dy &= \int 2x\,dx & 3(2)^2 + 3C &= \left(\sqrt[3]{13}\right)^3\\
-        \frac{y^3}{3} &= x^2 + C & 12 + 3C &= 13 \\
-        y^3 &= 3x^2 + 3C & C &= \frac{1}{3}\\
-        y &= \sqrt[3]{3x^2 + 3C} 
+        \frac{dy}{dx} &= \frac{2x}{y^2} \\
+        y^2\,dy &= 2x\,dx \\
+        \int y^2\,dy &= \int 2x\,dx \\
+        \frac{y^3}{3} &= x^2 + C \\
+        y^3 &= 3x^2 + 3C \\
+        y &= \sqrt[3]{3x^2 + 3C} \\ \\
+        y(2) &= \sqrt[3]{13} \\
+        \sqrt[3]{3(2)^2 + 3C} &= \sqrt[3]{13} \\
+        3(2)^2 + 3C &= \left(\sqrt[3]{13}\right)^3 \\
+        12 + 3C &= 13 \\
+        C &= \frac{1}{3} \\ \\
+        y &= \sqrt[3]{3x^2 + 1}
     \end{align*}
-    \vspace*{-24pt}
-    $$y = \sqrt[3]{3x^2 + 1}$$ 
 
-    $$\frac{dy}{dx} = \frac{1}{\sec^2\! y}\,, \quad y(3)  = 0$$
-    \vspace*{-24pt}
     \begin{align*}
-        \sec^2\! y\,dy &= dx & \tan^{-1}(3 + C) &= 0\\
-        \int \sec^2\!y\,dy &= \int dx & 3+C &= \tan(0)\\
-        \tan y &= x + C & 3 + C &= 0 \\
-        y &= \tan^{-1}(x + C) & C &= -3 \\
+        \frac{dy}{dx} &= \frac{2x}{y^2} \\
+        y^2\,dy &= 2x\,dx \\
+        \int y^2\,dy &= \int 2x\,dx \\
+        \frac{y^3}{3} &= x^2 + C \\
+        y^3 &= 3x^2 + 3C \\
+        y &= \sqrt[3]{3x^2 + 3C} \\ \\
+        y(2) = \sqrt[3]{13} \\
+        \sqrt[3]{3(2)^2 + 3C} &= \sqrt[3]{13} \\
+        3(2)^2 + 3C &= \left(\sqrt[3]{13}\right)^3 \\
+        12 + 3C &= 13 \\
+        C &= \frac{1}{3} \\ \\
+        y &= \sqrt[3]{3x^2 + 1}
     \end{align*}
-    \vspace*{-32pt}
-    $$y = \tan^{-1}(x - 3)$$ 
-    \vspace{64pt} 
 
-\columnbreak
-    
-    $$\frac{dy}{dx} = 2e^{x - y}\,, \quad y(-3) = \ln \frac{3e^3 + 2}{e^3}$$
-    \vspace*{-24pt}
-    \begin{align*}
-        e^y\,dy &= 2e^x\,dx & \ln(2e^{-3}+C) &= \ln \frac{3e^3 + 2}{e^3} \\
-        \int e^y\,dy &= \int 2e^x\,dx & 2e^{-3}+C &= \frac{3e^3 + 2}{e^3}\\
-        e^y &= 2e^x + C & C &= \frac{3e^3 + 2}{e^3} - 2e^{-3} \\
-        y &= \ln(2e^x+C) & C &= 3\\
-    \end{align*}
-    \vspace*{-32pt}
-    $$y = \ln(2e^x+3)$$ 
-    
-    $$\frac{dy}{dx} = \frac{e^x}{y^2}\,, \quad y(-1) = \frac{\sqrt[3]{e^3 + 3e^2}}{e}$$
-    \vspace*{-24pt}
-    \begin{align*}
-        y^2\,dy &= e^x\,dx & \sqrt[3]{3e{-1} + 3C} &= \frac{\sqrt[3]{e^3 + 3e^2}}{e} \\
-        \int y^2\,dy &= \int e^x\,dx & 3e{-1} + 3C &= \frac{e^3 + 3e^2}{e^3}\\
-        \frac{y^3}{3} &= e^x + C & 3C &= \frac{e^3 + 3e^2 - 3e^2}{e^3} \\
-        y^3 &= 3e^x + 3C & C &= \frac{1}{3}\\
-        y &= \sqrt[3]{3e^x + 3C} 
-    \end{align*}
-    $$y = \sqrt[3]{3(e^x + \frac{1}{3})}$$ 
-    \end{center}
-    \vspace{64pt}
+    % $$\frac{dy}{dx} = 2e^{x - y}\,, \quad y(-3) = \ln \frac{3e^3 + 2}{e^3}$$
+    % \vspace*{-24pt}
+    % \begin{align*}
+    %     e^y\,dy &= 2e^x\,dx & \ln(2e^{-3}+C) &= \ln \frac{3e^3 + 2}{e^3} \\
+    %     \int e^y\,dy &= \int 2e^x\,dx & 2e^{-3}+C &= \frac{3e^3 + 2}{e^3}\\
+    %     e^y &= 2e^x + C & C &= \frac{3e^3 + 2}{e^3} - 2e^{-3} \\
+    %     y &= \ln(2e^x+C) & C &= 3\\
+    % \end{align*}
+    % \vspace*{-32pt}
+    % $$y = \ln(2e^x+3)$$ 
 \end{multicols}
+% \begin{center}
 
-\begin{multicols}{2}
-    \begin{center}
-    $$\frac{dy}{dx} = -\frac{1}{\sin y}\,, \quad y(3) = \frac{\pi}{2}$$
-    \begin{align*}
-        \sin \! y\,dy &= -1\,dx & \cos^{-1}(3 - C) &= \frac{\pi}{2} \\
-        \int \sin \! y\,dy &= \int -1\,dx & 3 - C &= \cos \frac{\pi}{2}\\
-        -\cos y &= -x + C & 3 - C &= 0 \\
-        y &= \cos^{-1}(x - C) & C &= 3\\ 
-    \end{align*}
-    $$y = \cos^{-1}(x - 3)$$ 
 
-    $$\frac{dy}{dx} = \frac{3x^2}{e^{2y}}\,, \quad y(1) = 0$$
-    \begin{align*}
-        e^{2y}\,dy &= 3x^2\,dx & \frac{\ln \left( 2\left(1^2 + C\right) \right)}{2} &= 0 \\
-        \int e^{2y}\,dy &= \int 3x^2\,dx & 2\left(1^2+C\right) &= 1\\
-        \frac{e^{2y}}{2} &= x^3 + C & 1+C &= \frac{1}{2} \\
-        e^{2y} &= 2x^3 +2C & C &= -\frac{1}{2}\\
-        2y &= \ln \left( 2\left(x^2 + C\right) \right) \\
-        y &= \frac{\ln \left( 2\left(x^2 + C\right) \right)}{2}
-    \end{align*}
-    $$y = \ln \left( \sqrt{x^2 - \frac{1}{2}} \right) + \ln \sqrt{2}$$ 
+%     $$\frac{dy}{dx} = \frac{1}{\sec^2\! y}\,, \quad y(3)  = 0$$
+%     \vspace*{-24pt}
+%     \begin{align*}
+%         \sec^2\! y\,dy &= dx & \tan^{-1}(3 + C) &= 0\\
+%         \int \sec^2\!y\,dy &= \int dx & 3+C &= \tan(0)\\
+%         \tan y &= x + C & 3 + C &= 0 \\
+%         y &= \tan^{-1}(x + C) & C &= -3 \\
+%     \end{align*}
+%     \vspace*{-32pt}
+%     $$y = \tan^{-1}(x - 3)$$ 
 
-    \columnbreak 
+%     $$\frac{dy}{dx} = \frac{e^x}{y^2}\,, \quad y(-1) = \frac{\sqrt[3]{e^3 + 3e^2}}{e}$$
+%     \vspace*{-24pt}
+%     \begin{align*}
+%         y^2\,dy &= e^x\,dx & \sqrt[3]{3e{-1} + 3C} &= \frac{\sqrt[3]{e^3 + 3e^2}}{e} \\
+%         \int y^2\,dy &= \int e^x\,dx & 3e{-1} + 3C &= \frac{e^3 + 3e^2}{e^3}\\
+%         \frac{y^3}{3} &= e^x + C & 3C &= \frac{e^3 + 3e^2 - 3e^2}{e^3} \\
+%         y^3 &= 3e^x + 3C & C &= \frac{1}{3}\\
+%         y &= \sqrt[3]{3e^x + 3C} 
+%     \end{align*}
+%     $$y = \sqrt[3]{3(e^x + \frac{1}{3})}$$ 
 
-    $$\frac{dy}{dx} = \frac{2x}{e^{2y}}\,, \quad y(2) = \frac{\ln 5}{2}$$
-    \begin{align*}
-        y^2\,dy &= e^x\,dx & \sqrt[3]{3e{-1} + 3C} &= \frac{\sqrt[3]{e^3 + 3e^2}}{e} \\
-        \int y^2\,dy &= \int e^x\,dx & 3e{-1} + 3C &= \frac{e^3 + 3e^2}{e^3}\\
-        \frac{y^3}{3} &= e^x + C & 3C &= \frac{e^3 + 3e^2 - 3e^2}{e^3} \\
-        y^3 &= 3e^x + 3C & C &= 1\\
-        y &= \sqrt[3]{3e^x + 3C} 
-    \end{align*}
-    $$y = \sqrt[3]{3(e^x + 1)}$$ 
+%     $$\frac{dy}{dx} = -\frac{1}{\sin y}\,, \quad y(3) = \frac{\pi}{2}$$
+%     \begin{align*}
+%         \sin \! y\,dy &= -1\,dx & \cos^{-1}(3 - C) &= \frac{\pi}{2} \\
+%         \int \sin \! y\,dy &= \int -1\,dx & 3 - C &= \cos \frac{\pi}{2}\\
+%         -\cos y &= -x + C & 3 - C &= 0 \\
+%         y &= \cos^{-1}(x - C) & C &= 3\\ 
+%     \end{align*}
+%     $$y = \cos^{-1}(x - 3)$$ 
 
-    $$\frac{dy}{dx} = \frac{1 + x^2}{y^2}\,, \quad y(-1) = -\sqrt[3]{4}$$
-    \begin{align*}
-        y^2\,dy &= e^x\,dx & \sqrt[3]{3e{-1} + 3C} &= \frac{\sqrt[3]{e^3 + 3e^2}}{e} \\
-        \int y^2\,dy &= \int e^x\,dx & 3e{-1} + 3C &= \frac{e^3 + 3e^2}{e^3}\\
-        \frac{y^3}{3} &= e^x + C & 3C &= \frac{e^3 + 3e^2 - 3e^2}{e^3} \\
-        y^3 &= 3e^x + 3C & C &= 1\\
-        y &= \sqrt[3]{3e^x + 3C} 
-    \end{align*}
-    $$y = \sqrt[3]{3(e^x + 1)}$$ 
-    \end{center}
-\end{multicols}
+%     $$\frac{dy}{dx} = \frac{3x^2}{e^{2y}}\,, \quad y(1) = 0$$
+%     \begin{align*}
+%         e^{2y}\,dy &= 3x^2\,dx & \frac{\ln \left( 2\left(1^2 + C\right) \right)}{2} &= 0 \\
+%         \int e^{2y}\,dy &= \int 3x^2\,dx & 2\left(1^2+C\right) &= 1\\
+%         \frac{e^{2y}}{2} &= x^3 + C & 1+C &= \frac{1}{2} \\
+%         e^{2y} &= 2x^3 +2C & C &= -\frac{1}{2}\\
+%         2y &= \ln \left( 2\left(x^3 + C\right) \right) \\
+%         y &= \frac{\ln \left( 2\left(x^3 + C\right) \right)}{2}
+%     \end{align*}
+%     $$y = \ln \left( \sqrt{x^2 - \frac{1}{2}} \right) + \ln \sqrt{2}$$ 
+
+%     $$\frac{dy}{dx} = \frac{2x}{e^{2y}}\,, \quad y(2) = \frac{\ln 5}{2}$$
+%     \begin{align*}
+%         e^{2y},dy &= 2x\,dx & \sqrt[3]{3e{-1} + 3C} &= \frac{\sqrt[3]{e^3 + 3e^2}}{e} \\
+%         \int e^{2y}\,dy &= \int 2x\,dx & 3e{-1} + 3C &= \frac{e^3 + 3e^2}{e^3}\\
+%         \frac{e^{2y}}{2} &= x^2 + C & 3C &= \frac{e^3 + 3e^2 - 3e^2}{e^3} \\
+%         e^{2y} &= 2\left(x^2 + C\right) & C &= 1\\
+%         2y &= \ln \left( 2\left(x^2 + C\right) \right)
+%     \end{align*}
+%     $$y = \sqrt[3]{3(e^x + 1)}$$ 
+
+%     $$\frac{dy}{dx} = \frac{1 + x^2}{y^2}\,, \quad y(-1) = -\sqrt[3]{4}$$
+%     \begin{align*}
+%         y^2\,dy &= e^x\,dx & \sqrt[3]{3e{-1} + 3C} &= \frac{\sqrt[3]{e^3 + 3e^2}}{e} \\
+%         \int y^2\,dy &= \int e^x\,dx & 3e{-1} + 3C &= \frac{e^3 + 3e^2}{e^3}\\
+%         \frac{e^{2y}}{2} &= x^2 + C & 3C &= \frac{e^3 + 3e^2 - 3e^2}{e^3} \\
+%         y^3 &= 3e^x + 3C & C &= 1\\
+%         y &= \sqrt[3]{3e^x + 3C} 
+%     \end{align*}
+%     $$y = \sqrt[3]{3(e^x + 1)}$$ 
+% \end{center}
 \end{document}
 \end{document}
