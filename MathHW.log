@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.1)  25 FEB 2025 08:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.1)  25 FEB 2025 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -403,13 +403,13 @@ Overfull \hbox (24.34355pt too wide) detected at line 276
  []
 
 [7]
-Overfull \vbox (75.55106pt too high) has occurred while \output is active []
+Overfull \vbox (34.57375pt too high) has occurred while \output is active []
 
 
-Overfull \vbox (75.55106pt too high) has occurred while \output is active []
+Overfull \vbox (34.57375pt too high) has occurred while \output is active []
 
 
-[8] (./MathHW.aux)
+[8] [9] (./MathHW.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -418,8 +418,8 @@ Package rerunfilecheck Info: File `MathHW.out' has not changed.
 (rerunfilecheck)             Checksum: 1BE1A2EFB83A9D9EC14212B7290B0D21;950.
  ) 
 Here is how much of TeX's memory you used:
- 8869 strings out of 476076
- 135570 string characters out of 5793776
+ 8870 strings out of 476076
+ 135576 string characters out of 5793776
  1987187 words of memory out of 5000000
  30887 multiletter control sequences out of 15000+600000
  564968 words of font info for 60 fonts, out of 8000000 for 9000
@@ -433,10 +433,10 @@ mr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb>
-Output written on MathHW.pdf (8 pages, 119720 bytes).
+Output written on MathHW.pdf (9 pages, 120817 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
+ 123 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
