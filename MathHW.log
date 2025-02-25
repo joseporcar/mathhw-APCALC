@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.1)  25 FEB 2025 08:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.1)  25 FEB 2025 08:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -402,7 +402,14 @@ Overfull \hbox (24.34355pt too wide) detected at line 276
 []
  []
 
-[7] [8] (./MathHW.aux)
+[7]
+Overfull \vbox (75.55106pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (75.55106pt too high) has occurred while \output is active []
+
+
+[8] (./MathHW.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -411,13 +418,13 @@ Package rerunfilecheck Info: File `MathHW.out' has not changed.
 (rerunfilecheck)             Checksum: 1BE1A2EFB83A9D9EC14212B7290B0D21;950.
  ) 
 Here is how much of TeX's memory you used:
- 8867 strings out of 476076
- 135506 string characters out of 5793776
- 2000187 words of memory out of 5000000
- 30885 multiletter control sequences out of 15000+600000
+ 8869 strings out of 476076
+ 135570 string characters out of 5793776
+ 1987187 words of memory out of 5000000
+ 30887 multiletter control sequences out of 15000+600000
  564968 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,14n,79p,339b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,339b,574s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -426,7 +433,7 @@ mr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb>
-Output written on MathHW.pdf (8 pages, 119760 bytes).
+Output written on MathHW.pdf (8 pages, 119720 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream
