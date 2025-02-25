@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.1)  25 FEB 2025 08:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.2.1)  25 FEB 2025 08:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -413,7 +413,7 @@ Package rerunfilecheck Info: File `MathHW.out' has not changed.
 Here is how much of TeX's memory you used:
  8867 strings out of 476076
  135506 string characters out of 5793776
- 1987187 words of memory out of 5000000
+ 2000187 words of memory out of 5000000
  30885 multiletter control sequences out of 15000+600000
  564968 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -426,7 +426,7 @@ mr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb>
-Output written on MathHW.pdf (8 pages, 118234 bytes).
+Output written on MathHW.pdf (8 pages, 119760 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream

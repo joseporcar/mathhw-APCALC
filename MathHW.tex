@@ -276,7 +276,7 @@ Find the volume of the solid that results when the region enclosed by the curves
 \end{flalign*}
 \subsection*{Particular Solution}
 \begin{multicols}{2}
-    \vspace*{-32pt}
+    \vspace*{-40pt}
     \begin{align*}
         &5. & \frac{dy}{dx} &= \frac{2x}{y^2} \\
         &&y^2\,dy &= 2x\,dx \\
@@ -307,8 +307,9 @@ Find the volume of the solid that results when the region enclosed by the curves
 \end{multicols}
 \pagebreak
 \begin{multicols}{2}
+    \vspace*{-32pt}
     \begin{align*}
-        &7 & \frac{dy}{dx} &= \frac{1}{\sec^2\! y} \\
+        &7.& \frac{dy}{dx} &= \frac{1}{\sec^2\! y} \\
         &&\sec^2\! y\,dy &= dx \\
         &&\int \sec^2\!y\,dy &= \int dx \\
         &&\tan y &= x + C \\
@@ -319,7 +320,7 @@ Find the volume of the solid that results when the region enclosed by the curves
         &&3 + C &= 0 \\
         &&C &= -3 \\ \\
         &&y &= \tan^{-1}(x - 3)  \\ \\ \\
-        &9&\frac{dy}{dx} = \frac{e^x}{y^2} \\
+        &9.&\frac{dy}{dx} &= \frac{e^x}{y^2} \\
         &&y^2\,dy &= e^x\,dx \\
         &&\int y^2\,dy &= \int e^x\,dx \\
         &&\frac{y^3}{3} &= e^x + C \\
@@ -334,29 +335,38 @@ Find the volume of the solid that results when the region enclosed by the curves
     \end{align*}
     \columnbreak
     \begin{align*}
-        &8&
-        &9&
+        &8.&\frac{dy}{dx} &= -\frac{1}{\sin y} \\
+        &&\sin \! y\,dy &= -1\,dx \\
+        &&\int \sin \! y\,dy &= \int -1\,dx \\
+        &&-\cos y &= -x + C \\
+        &&y &= \cos^{-1}(x - C) \\ \\
+        &&y(3) = \frac{\pi}{2} \\
+        &&\cos^{-1}(3 - C) &= \frac{\pi}{2} \\
+        &&3 - C &= \cos \frac{\pi}{2} \\
+        &&3 - C &= 0 \\
+        &&C &= 3 \\ \\
+        &&y &= \cos^{-1}(x - 3) \\ \\ \\
+        &10.& \frac{dy}{dx} &= \frac{3x^2}{e^{2y}} \\
+        &&e^{2y}\,dy &= 3x^2\,dx \\
+        &&\int e^{2y}\,dy &= \int 3x^2\,dx \\
+        &&\frac{e^{2y}}{2} &= x^3 + C \\
+        &&e^{2y} &= 2x^3 +2C \\
+        &&2y &= \ln \left( 2\left(x^3 + C\right) \right) \\
+        &&y &= \frac{\ln \left( 2\left(x^3 + C\right) \right)}{2} \\ \\
+        &&y(1) &= 0 \\
+        &&\frac{\ln \left( 2\left(1^2 + C\right) \right)}{2} &= 0 \\
+        &&2\left(1^2+C\right) &= 1 \\
+        &&1+C &= \frac{1}{2} \\
+        &&C &= -\frac{1}{2} \\ \\
+        &&y &= \ln \left( \sqrt{x^2 - \frac{1}{2}} \right) + \ln \sqrt{2} \\ \\ \\
     \end{align*}
 \end{multicols}
-%     $$\frac{dy}{dx} = -\frac{1}{\sin y}\,, \quad y(3) = \frac{\pi}{2}$$
-%     \begin{align*}
-%         \sin \! y\,dy &= -1\,dx & \cos^{-1}(3 - C) &= \frac{\pi}{2} \\
-%         \int \sin \! y\,dy &= \int -1\,dx & 3 - C &= \cos \frac{\pi}{2}\\
-%         -\cos y &= -x + C & 3 - C &= 0 \\
-%         y &= \cos^{-1}(x - C) & C &= 3\\ 
-%     \end{align*}
-%     $$y = \cos^{-1}(x - 3)$$ 
 
-%     $$\frac{dy}{dx} = \frac{3x^2}{e^{2y}}\,, \quad y(1) = 0$$
+%     $$\,, \quad $$
 %     \begin{align*}
-%         e^{2y}\,dy &= 3x^2\,dx & \frac{\ln \left( 2\left(1^2 + C\right) \right)}{2} &= 0 \\
-%         \int e^{2y}\,dy &= \int 3x^2\,dx & 2\left(1^2+C\right) &= 1\\
-%         \frac{e^{2y}}{2} &= x^3 + C & 1+C &= \frac{1}{2} \\
-%         e^{2y} &= 2x^3 +2C & C &= -\frac{1}{2}\\
-%         2y &= \ln \left( 2\left(x^3 + C\right) \right) \\
-%         y &= \frac{\ln \left( 2\left(x^3 + C\right) \right)}{2}
+
 %     \end{align*}
-%     $$y = \ln \left( \sqrt{x^2 - \frac{1}{2}} \right) + \ln \sqrt{2}$$ 
+%     $$$$ 
 
 %     $$\frac{dy}{dx} = \frac{2x}{e^{2y}}\,, \quad y(2) = \frac{\ln 5}{2}$$
 %     \begin{align*}
